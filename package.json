@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "dependencies": {
+    "request": "^2.88.2",
+    "twitter-api-v2": "^1.14.2"
+  }
+}
