@@ -28,7 +28,7 @@ const persons = [
   }
 ];
 
-const pattern = /bsky-social-[a-zA-Z0-9]+/;
+const pattern = /bsky-social-[a-zA-Z0-9]+-[a-zA-Z0-9]+/;
 stream.on(ETwitterStreamEvent.Data, async tweet => {
   console.log(tweet.data.text);
   const match = tweet.data.text.match(pattern);
